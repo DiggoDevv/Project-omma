@@ -49,3 +49,92 @@ main section.banner h1{
     text-shadow: 0px 4px 4px rgba(0,0,0,0.36);
     padding: 100px;
 }
+
+main section.receitas-principais .container {
+    min-height: 600px;
+    width: 1200px; /* largura */
+    margin: 0 auto; /* espaçamento automatico para centralizar o container */
+}
+
+main section.receitas-principais h2{
+    color: #FFA000;
+    text-align: center;
+    font-weight: bold;
+    font-size: 55px;
+    text-transform: lowercase;
+}
+
+.lista-receitas {
+    display: flex; /*ativando flex-box*/
+    justify-content: space-evenly; /*espaçamento igual ao redor dos elementos*/
+    align-items: flex-start; /*rodos os elementos alinhados no topo*/
+}
+
+
+.lista-receitas article{
+    /* border: 1px solid orange; */
+    width: 345px;
+    text-align: center;
+}
+.lista-receitas .thumb {
+    width: 100%;
+    height: 280px;
+    background-color: orange;
+    background-size: cover; /*imagem cobre todo o elemento*/
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.lista-receitas article h3{
+    font-size: 26px;
+}
+.lista-receitas article a{
+    background-color: #176902; /*cor de fundo*/
+    color: #fff; /*cor do texto*/
+    font-size: 24px; /* tamanho da letra*/
+    font-weight: bold;/* grossura da letra*/
+    padding: 5px 25px;/* espaçamento interno do botão*/
+    text-decoration: none; /*tirar sublinhado do link*/
+}
+section.banner-secundario{
+    background-image: url(../img/Image20230529082624.png);
+    background-size:cover ;
+    background-position:center ;
+}
+
+section.banner-secundario .container {
+    min-height: 600px;
+    width: 120px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column; /* itens em coluna*/
+    justify-content: center; /* alinhamento centralizado na vertical*/
+}
+section.banner-secundario .container h2{
+    font-size: 62px;
+    color: #fff;
+    text-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+}
+section.banner-secundario .container p{
+    color: #fff;
+    font-size: 24px;
+    text-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    width: 450px;
+}
+footer {
+    background-color: #FFC107;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+}
+footer .container{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 0; /*Adiciona espaçamento no elemento*/
+}
+
+footer p {
+    padding: 0 15px;
+}
