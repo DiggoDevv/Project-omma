@@ -50,11 +50,11 @@ main section.banner .container {
 
 }
 main section.banner h1{
-    font-size: 70px;
+    font-size: 50px;
     text-transform: lowercase;
     color: #fff;
     text-shadow: 0px 4px 4px rgba(0,0,0,0.36);
-    padding: 100px;
+    padding: 30px;
 }
 
 main section.receitas-principais .container {
@@ -140,6 +140,7 @@ footer {
     font-size: 18px;
 }
 footer .container{
+    flex-wrap: wrap;
     max-width: 100%;
     width: 1200px;
     margin: 0 auto;
@@ -234,18 +235,18 @@ section.contato .container {
     color: #fff;
     font-size: 70px;
 }
-.banner-vertical {
+ /* .banner-vertical { 
     width: 30%;
     height: 700px;
     background-image: url(../img/img-vertical-receita.png);
     background-size: cover;
     background-position: center;
     border-radius: 30px;
-}
+ } */
 .formulario {
     border: 1px solid #FFA000;
     border-radius: 20px;
-    margin: 0 30px;
+    margin: 60px;
     padding: 30px;
     width: 70%;
 }
@@ -289,6 +290,8 @@ section.contato .container {
 @media (max-width: 1100px){
     .container,
     .container-receita-interna {
+        flex-wrap: wrap;
+        justify-content: center;
         max-width: 100% !important;
         width: 900px !important; 
         /* important sobscreve outras regras*/
